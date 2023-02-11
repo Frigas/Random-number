@@ -1,0 +1,35 @@
+ body{
+    background-color: brown;
+ }
+
+
+ .container{
+    max-width: 900px;margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .counter-div{
+    width: 40rem;
+    border: 1px solid greenyellow;
+    padding: 1rem;
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    border-radius: 5px;
+ }
+ .count{
+    font-size: 4rem;
+ }
+
+ .buttons button{
+    padding: 1rem;
+    margin: 0 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+ }
+ .buttons button:hover{background-color: goldenrod;
+    color: brown;}
